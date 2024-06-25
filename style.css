@@ -130,6 +130,7 @@ nav {
 }
 
 #btn1 {
+    margin-right: 10px;
     width: 241px;
     height: 54px;
     border-radius: 250px;
@@ -137,6 +138,7 @@ nav {
 }
 
 #btn2 {
+    margin-right: 10px;
     width: 114px;
     height: 54px;
     border-radius: 250px;
@@ -422,11 +424,12 @@ nav {
 }
 
 #t_area::placeholder {
-    padding: 16px 0 0 19px;
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
     color: #333;
+    padding: 16px 0 17px 19px;
 }
 
 .consultation-image {
@@ -435,6 +438,13 @@ nav {
 
 
 /* job */
+
+.section-job {
+    position: relative;
+    background-image: url(images/left.png), url(images/right.png);
+    background-repeat: no-repeat;
+    background-position: 100px 250px, 1380px 250px;
+}
 
 .job {
     margin-top: 112px;
@@ -630,4 +640,10 @@ footer {
     font-weight: 600;
     line-height: 26px;
     color: #fff;
+}
+
+.footer-bottom p {
+    color: #fff;
+    text-align: center;
+    line-height: 41px;
 }
