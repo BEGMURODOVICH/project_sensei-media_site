@@ -444,6 +444,7 @@ nav {
     background-image: url(images/left.png), url(images/right.png);
     background-repeat: no-repeat;
     background-position: 100px 250px, 1380px 250px;
+    cursor: pointer;
 }
 
 .job {
@@ -629,6 +630,7 @@ footer {
 }
 
 #foot-btn {
+    cursor: pointer;
     margin-top: 22px;
     border: none;
     width: 205px;
